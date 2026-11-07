@@ -1,3 +1,4 @@
+
 [app]
 title = KHUSHBO
 package.name = khushbo
@@ -5,7 +6,7 @@ package.domain = org.afaq
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3,kivy==2.3.0,pyjnius,android,plyer
+requirements = python3==3.11.5,hostpython3==3.11.5,kivy==2.3.0,pyjnius,android,plyer
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET,CAMERA,CALL_PHONE,RECORD_AUDIO,FLASHLIGHT
